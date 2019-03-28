@@ -11,6 +11,7 @@ Create and activate environment
 ```
 conda create -n <envname> python=3.6 numpy matplotlib pil jupyter pytorch
 conda install -c conda-forge opencv
+source activate <envname>
 ```
 # Running the model
 - Run model from within the notebook, run: `jupyter notebook`
